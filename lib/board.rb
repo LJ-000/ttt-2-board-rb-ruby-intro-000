@@ -1,5 +1,5 @@
 # Define the variable board below.
-my_array = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 row = [" ", " ", " "]
 #Position 1: Left
 row [0]
