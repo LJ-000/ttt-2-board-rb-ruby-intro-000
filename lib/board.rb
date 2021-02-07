@@ -1,9 +1,15 @@
 # Define the variable board below.
-puts board = [" "," "," "," "," "," "," "," "," "," "]
-def display_board
-  puts row = [" "|" "|" "]
-  puts separator = "___________"
-  puts row
-  puts separator
-  puts row
-end
+my_array = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+row = [" ", " ", " "]
+#Position 1: Left
+row [0]
+
+#Position 2: Middle
+row [1]
+
+#Position 3: Right
+row [2]
+
+#Move X to the Position 2, Middle
+row [1] = "x"
+row #=> [" ", "x", " "]
